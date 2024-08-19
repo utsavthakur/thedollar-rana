@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Raksha Bandhan Wishes</title>
+	<style>
+
+		body {
+			background-color: #ffffff;
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			width: 80%;
+			margin: 40px auto;
+			background-size: cover;
+			background-position: center;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(255, 1, 1, 0.534);
+			position: relative; /* Add this to make the flowers absolute positioning work */
+		}
+		.message {
+			font-size: 24px;
+			color: #df1a1a;
+			text-align: center;
+		}
+		.flower {
+			position: absolute;
+			font-size: 36px; /* Increase font size to make flowers larger */
+			animation: dance 3s infinite;
+			transform-origin: center; /* Add this to make the flowers rotate around their center */
+		}
+		.top-left {
+			top: 0;
+			left: 0;
+			color: #ff69b4; /* Pink */
+		}
+		.top-right {
+			top: 0;
+			right: 0;
+			color: #34c759; /* Green */
+		}
+		.bottom-left {
+			bottom: 0;
+			left: 0;
+			color: #ffd700; /* Yellow */
+		}
+		.bottom-right {
+			bottom: 0;
+			right: 0;
+			color: #9b59b6; /* Purple */
+		}
+		@keyframes dance {
+			0% {
+				transform: translate(0, 0) rotate(0deg) scale(1);
+			}
+			25% {
+				transform: translate(0, 0) rotate(45deg) scale(1.2);
+			}
+			50% {
+				transform: translate(0, 0) rotate(90deg) scale(1.5);
+			}
+			75% {
+				transform: translate(0, 0) rotate(135deg) scale(1.2);
+			}
+			100% {
+				transform: translate(0, 0) rotate(0deg) scale(1);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+        <marquee>
+            <h1>Raksha Bandhan Wishes</h1>
+        </marquee>
+		
+		<p class="message">Dear Sister,</p>
+		<p class="message">Thank you for being such an amazing sister! On this special day of Raksha Bandhan, I want to express my gratitude for the love, care, and support you've always shown me. You're not only my sister, but also my best friend .</p>
+		<p class="message">I'm so lucky to have you in my life. Here's to many more years of love, laughter, and adventures together! </p>
+		<p class="message">Happy Raksha Bandhan!</p>
+		
+		<!-- Add the dancing flowers to each corner -->
+		<div class="flower top-left">❀️</div>
+		<div class="flower top-right">❀️</div>
+		<div class="flower bottom-left">❀️</div>
+		<div class="flower bottom-right">❀️</div>
+	</div>
+</body>
+</html>
